@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+  grid-template-columns: 2fr 3fr auto 1fr;
+  margin: calc(1rem + 5vh) 1fr;
+}
+
+h1 {
+  font-size: calc(1em + 4vw);
+  line-height: 1;
+  margin: 0 0 0.5em;
+  font-weight: 900;
+  grid-column: 2 / 4;
+}
+
+p {
+  font-size: calc(0.875em + 0.625vw);
+  line-height: 1.5;
+  margin: 0 0 1em;
+  grid-column: 3 / 4;
+  max-width: 50ch;
+}
